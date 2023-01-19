@@ -42,13 +42,15 @@
 }
 
 .team {
-    font-family: 'Rubik', sans-serif;
-    color: #14d9c4;
+    color: var(--light-color);
+    font-family: var(--title-font-family);
+    font-size: 24px;
     text-align: center;
 }
 
 .description {
-    font-family: 'Open Sans', sans-serif;
+    font-family: var(--text-font-family);
+    font-size: 16px;
     color: #54585a;
     text-align: center;
     padding: 15px 15px 30px 15px;
@@ -61,14 +63,19 @@
 }
 
 .title-3 {
-    color: #099d8d;
+    color: var(--strong-color);
+    font-family: var(-title-font-family);
     text-align: center;
-    padding: 30px 15px;
+    font-size: 22px;
+    padding: 30px 15px 0px 15px;
 }
 
 .paragraph {
+    font-family: var(--text-font-family);
+    font-size: 16px;
     color: #54585a;
     text-align: center;
+    padding: 15px 15px 30px 15px;
 }
 
 .about-us {
