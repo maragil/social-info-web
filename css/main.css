@@ -6,3 +6,37 @@
     --text-color: #54585a;
 }
 
+.section-1 {
+    padding: 30px 15 px;
+    background-color: white;
+}
+
+.team {
+    font-family: 'Rubik', sans-serif;
+    color: #14d9c4;
+    text-align: center;
+}
+
+.description {
+    font-family: 'Open Sans', sans-serif;
+    color: #54585a;
+    text-align: center;
+    padding: 15px 15px 30px 15px;
+}
+
+.section-2 {
+    display: block;
+    background-color: #b8b8b9;
+    padding: 30px 15px 45px 15px;
+}
+
+.title-3 {
+    color: #099d8d;
+    text-align: center;
+    padding: 30px 15px;
+}
+
+.paragraph {
+    color: #54585a;
+    text-align: center;
+}
