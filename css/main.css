@@ -14,8 +14,11 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    position: sticky;
+    position: fixed;
+    z-index: 1;
     top: 0;
+    opacity: 80%;
+
 }
 
 .title {
@@ -50,19 +53,45 @@
     background-color: white;
 }
 
+.hero {
+    width: 100%;
+    height: 421px;
+}
+
+.mood {
+    position: relative;
+}
+
+.caption {
+    position: absolute;
+    bottom: -15px;
+    background-color: white;
+    margin: 15px;
+    padding: 15px;
+}
+
 .team {
     color: var(--light-color);
     font-family: var(--title-font-family);
     font-size: 24px;
     text-align: center;
+    padding-top: 30px;
 }
 
+.diamond {
+  background-color:white;  
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  transform: rotate(45deg);
+}
 .description {
     font-family: var(--text-font-family);
     font-size: 16px;
     color: #54585a;
     text-align: center;
     padding: 15px 15px 30px 15px;
+    position: relative;
 }
 
 .section-2 {
