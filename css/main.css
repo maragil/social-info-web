@@ -66,8 +66,11 @@
     position: absolute;
     bottom: -15px;
     background-color: white;
+    font-weight: bold;
     margin: 15px;
     padding: 15px;
+    font-family: var(--text-font-family);
+    font-size: 18px;
 }
 
 .team {
@@ -76,14 +79,15 @@
     font-size: 24px;
     text-align: center;
     padding-top: 30px;
+    text-transform: uppercase;
 }
 
 .diamond {
-    background-color:white;
-    height: 30px;
+    background-color: white;
+    transform: rotate(45deg) translateY(10px) translateX(10px); 
     width: 30px;
-    position: absolute;
-    transform: rotate(45deg);
+    height: 30px;
+    margin: 0 auto;
 }
 .description {
     font-family: var(--text-font-family);
@@ -103,6 +107,7 @@
 .title-3 {
     color: var(--strong-color);
     font-family: var(-title-font-family);
+    font-weight: bold;
     text-align: center;
     font-size: 22px;
     padding: 30px 15px 0px 15px;
