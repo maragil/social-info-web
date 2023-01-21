@@ -79,11 +79,11 @@
 }
 
 .diamond {
-  background-color:white;  
-  height: 30px;
-  width: 30px;
-  position: absolute;
-  transform: rotate(45deg);
+    background-color:white;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    transform: rotate(45deg);
 }
 .description {
     font-family: var(--text-font-family);
@@ -167,6 +167,20 @@
 }
 
 @media (min-width: 768px) {
+
+    .header{
+        flex-direction: row;
+        background-color: #099d8d;
+    }
+
+    .title{
+        justify-content: center;
+    }
+
+    .nav_menu{
+        background-color: #099d8d;
+    }
+
     .about-us {
             display: flex;
             flex-direction: column;
@@ -213,6 +227,7 @@
 }
 
 @media (min-width: 1200px) {
+
     .member-img {
             object-fit: cover;
             width: 278px;
