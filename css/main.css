@@ -55,7 +55,8 @@
 
 .hero {
     width: 100%;
-    height: 421px;
+    height: 282px;
+    object-fit: cover;
 }
 
 .mood {
@@ -185,7 +186,11 @@
     .nav_menu{
         background-color: #099d8d;
     }
-
+    .hero {
+        width: 100%;
+        height: 421px;
+        object-fit: cover;
+    }
     .about-us {
             display: flex;
             flex-direction: column;
@@ -232,7 +237,11 @@
 }
 
 @media (min-width: 1200px) {
-
+    .hero {
+            width: 100%;
+            height: 550px;
+            object-fit: cover;
+        }
     .member-img {
             object-fit: cover;
             width: 278px;
