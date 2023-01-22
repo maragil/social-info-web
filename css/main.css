@@ -233,8 +233,18 @@
             text-align: right;
             margin: 45px 30px 15px 0;
         }
+    
+    .section-2 {
+            flex-direction: row;
+            display: flex;
+            column-gap: 30px;
+            padding: 45px 30px 60px 30px;
+        }
 
-}
+    .column {
+            width: 50%;
+        }
+        
 
 @media (min-width: 1200px) {
     .hero {
@@ -259,4 +269,7 @@
     .member-description {
             max-width: 439px;
         }
-}
+
+    .section-2 {
+        column-gap: 45px;
+        }
