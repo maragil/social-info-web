@@ -1,12 +1,12 @@
-#LA BRÚJULA
+# LA BRÚJULA
 
-##¿Qué es la brújula?
+## ¿Qué es la brújula?
 
 La brújula es el punto de partida de cuatro chicas unidas por un primer proyecto común.
 
 Cada una es de un punto diferente de España, pero con el objetivo de recorrer este camino juntas.
 
-##¿Qué partes la conforman?
+## ¿Qué partes la conforman?
 
 Esta brújula tiene cinco partes bien diferenciadas:
 
@@ -20,7 +20,7 @@ Esta brújula tiene cinco partes bien diferenciadas:
 
 5. Un pie de página con información general y links de acceso a nuestra información
 
-##¿Cómo está fabricada?
+## ¿Cómo está fabricada?
 
 Esta brújula está fabricada con las siguientes herramientas:
 
