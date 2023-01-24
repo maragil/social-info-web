@@ -1,0 +1,38 @@
+.section-2 {
+    display: block;
+    background-color: #b8b8b9;
+    padding: 30px 15px 45px 15px;
+        @media (min-width: 768px) {
+                flex-direction: row;
+                display: flex;
+                column-gap: 30px;
+                padding: 45px 30px 60px 30px;
+            }
+        @media (min-width: 1200px) {
+                column-gap: 45px;
+                    }
+}
+
+.title-3 {
+    color: var(--strong-color);
+    font-family: var(-title-font-family);
+    font-weight: bold;
+    text-align: center;
+    font-size: 22px;
+    padding: 30px 15px 0px 15px;
+}
+
+.paragraph {
+    font-family: var(--text-font-family);
+    font-size: 16px;
+    color: #54585a;
+    text-align: center;
+    padding: 15px 15px 30px 15px;
+    line-height: 24px;
+}
+
+@media (min-width: 768px) {
+    .column {
+        width: 50%;
+    }
+}
