@@ -17,9 +17,9 @@
       <h1 class="title">Brújula</h1>
       <nav class="nav_menu">
         <ul class="ul">
-          <li> <a href="http://"></a>EQUIPO</li>
-          <li> <a href="http://"></a>QUIENES SOMOS</li>
-          <li> <a href="http://"></a>CONTACTO</li>
+          <li> <a class="header__link--none" href="#section-1" title="Equipo">EQUIPO</a></li>
+          <li> <a class="header__link--none" href="#about-us" title="Quienes somos">QUIENES SOMOS</a></li>
+          <li> <a class="header__link--none" href="#" title="Contacto">CONTACTO</a></li>
         </ul>
       </nav>
     </header>
@@ -29,7 +29,7 @@
           <img class="hero" src="./assets/images/brújula.jpg" alt="Esta es una imagen que representa al grupo Brújula">
           <figcaption class="caption">No importa de dónde vienes, sino a dónde vas 👣</figcaption>
       </figure>
-      <section class="section-1">
+      <section class="section-1" id="section-1">
           <h2 class="team">equipo</h2>
           <div class="description">
               <p>
@@ -65,14 +65,13 @@
               </p>
           </div>
       </section>
-      <section class="about-us">
+      <section class="about-us" id="about-us">
           <h2 class="about-us-title">QUIÉNES SOMOS</h2>
           <article class="member">
               <img class="member-img" src="./assets/images/foto-maria.jpeg" alt="">
               <div class="member-content">
                   <h4 class="member-name"> María Araujo </h4>
-                  <p class="member-description"> Profesora en aprendizaje continuo con ganas de renovarse e iniciarse en el
-                          mundo de la programación. Enamorada de mi familia, los cambios y las nuevas experiencias. Mis años en el mundo comercial me proporcionan experiencia en dinámicas de grupos y trabajo en equipo. </p>
+                  <p class="member-description"> Profesora en aprendizaje continuo con ganas de renovarse e iniciarse en el mundo de la programación. Enamorada de mi familia, los cambios y las nuevas experiencias. Mis años en el mundo comercial me proporcionan experiencia en dinámicas de grupos y trabajo en equipo. </p>
                   <ul class="social-media">
                       <li class="social-media-logo">
                           <a class="social-media-link" href="https://twitter.com/?lang=es"><i class="fa-brands fa-twitter"></i></a>
@@ -92,7 +91,7 @@
 
 
           <article class="member member-reverse">
-              <img class="member-img" src="./assets/images/foto-laura.jpg" alt="">
+              <img class="member-img-reverse" src="./assets/images/foto-laura.jpg" alt="">
               <div class="member-content member-content-reverse">
                   <h4 class="member-name"> Laura Pascual </h4>
                   <p class="member-description"> Periodista que ha ejercido de todo menos de lo `suyo´. En busca de nuevas portunidades. Sigo de cerca la moda, tendencias, música y todo lo relacionado con la cultura. Comprometida, creativa y proactiva. Sin miedo al trabajo, con ganas de encontrar en la programación un lugar en el que realizarme y crecer profesionalmente. </p>
@@ -136,7 +135,7 @@
 
 
           <article class="member member-reverse">
-              <img class="member-img" src="./assets/images/foto-vero.JPG" alt="">
+              <img class="member-img-reverse" src="./assets/images/foto-vero.JPG" alt="">
               <div class="member-content member-content-reverse">
                   <h4 class="member-name"> Verónica Velasco </h4>
                   <p class="member-description"> Diseñadora de joyas con ganas de comerse el mundo. Amante de la belleza y de las nuevas experiencias. Fan de los cambios y curiosa incondicional. Ahora afronto esta nueva aventura en programación con muchísima ilusión y con ganas de incorporarlo a mi background profesional. </p>
@@ -159,16 +158,16 @@
       </section>
     </main>
     <footer class="footer">
-      <section class="footer-copy"> Brújula &copy; 2023 </section>
-      <nav>
-        <ul class="footer-list">
-          <li>equipo</li>
-          <li>quienes somos</li>
-          <li>contacto</li>
+      <section class="footer__copy"> Brújula &copy; 2023 </section>
+      <nav class="footer__nav">
+        <ul class="footer__nav--list">
+          <li> <a class="footer__link--none" href="#section-1" title="Equipo">EQUIPO</a></li>
+          <li> <a class="footer__link--none" href="#about-us" title="Quienes somos">QUIENES SOMOS</a></li>
+          <li> <a class="footer__link--none" href="#" title="Contacto">CONTACTO</a></li>
         </ul>
       </nav>
-      <section class="footer-img"> <a href="https://adalab.es/">
-          <img class="footer-logo" src="./assets/images/logo-adalab.png" alt="logo adalab">
+      <section class="footer__logo"> <a href="https://adalab.es/">
+          <img class="footer__logo--img" src="./assets/images/logo-adalab.png" alt="logo adalab">
         </a></section>
     </footer>
 
