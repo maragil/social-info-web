@@ -11,8 +11,8 @@
 }
 
 .about-us-title {
-    color: var(--strong-color);
-    font-family: var(--title-font-family);
+    color: $strong_color;
+    font-family: $title_font;
     font-size: 24px;
 }
 
@@ -43,14 +43,14 @@
 }
 
 .member-name {
-    font-family: var(--text-font-family);
+    font-family: $text_font;
     font-size: 20px;
     color: black;
 }
 
 .member-description {
-    font-family: var(--text-font-family);
-    color: var(--text-color);
+    font-family: $text_font;
+    color: $text_color;
     font-size: 16px;
     margin: 15px 0 15px 0;
     line-height: 24px;
@@ -124,7 +124,7 @@
 }
 
 .social-media-link {
-    color: var(--strong-color);
+    color: $strong_color;
 }
 
 .social-media-logo::after {

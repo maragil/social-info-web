@@ -1,6 +1,6 @@
 .section-2 {
     display: block;
-    background-color: #b8b8b9;
+    background-color: #f1f1f1;
     padding: 30px 15px 45px 15px;
         @media (min-width: 768px) {
                 flex-direction: row;
@@ -14,18 +14,17 @@
 }
 
 .title-3 {
-    color: var(--strong-color);
-    font-family: var(-title-font-family);
-    font-weight: bold;
+    color: $strong_color;
+    font-family: $title_font;
     text-align: center;
     font-size: 22px;
     padding: 30px 15px 0px 15px;
 }
 
 .paragraph {
-    font-family: var(--text-font-family);
+    font-family: $text_font;
     font-size: 16px;
-    color: #54585a;
+    color: $text_color;
     text-align: center;
     padding: 15px 15px 30px 15px;
     line-height: 24px;

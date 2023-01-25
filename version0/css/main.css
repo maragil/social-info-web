@@ -1,13 +1,13 @@
 :root {
-    --title-font-family: 'Rubik', sans-serif;
-    --text-font-family: 'Open Sans', sans-serif;
-    --strong-color: #099d8d;
-    --light-color: #14d9c4;
-    --text-color: #54585a;
+    $title_font: 'Rubik', sans-serif;
+    $text_font: 'Open Sans', sans-serif;
+    $strong_color: #099d8d;
+    $light_color: #14d9c4;
+    $text_color: #54585a;
 }
 
 .header {
-    font-family: var(--title-font-family);
+    font-family: var($title_font);
     color: white;
     display: flex;
     flex-direction: column;
@@ -23,7 +23,7 @@
 
 .title {
     box-sizing: border-box;
-    background-color: var(--strong-color);
+    background-color: var($strong_color);
     width: 100%;
     height: 60px;
     display: flex;
@@ -34,7 +34,7 @@
 
 .nav_menu {
     box-sizing: border-box;
-    background-color: var(--light-color);
+    background-color: var($light_color);
     padding: 8px 0 7px 0;
     width: 100%;
     height: 45px;
@@ -72,7 +72,7 @@
     background-color: white;
     font-weight: bold;
     padding: 15px;
-    font-family: var(--text-font-family);
+    font-family: var($text_font);
     font-size: 18px;
     line-height: 25px;
     text-align: center;
@@ -80,8 +80,8 @@
 }
 
 .team {
-    color: var(--light-color);
-    font-family: var(--title-font-family);
+    color: var($light_color);
+    font-family: var($title_font);
     font-size: 24px;
     text-align: center;
     padding-top: 30px;
@@ -96,7 +96,7 @@
     margin: 0 auto;
 }
 .description {
-    font-family: var(--text-font-family);
+    font-family: var($text_font);
     font-size: 16px;
     color: #54585a;
     text-align: center;
@@ -112,7 +112,7 @@
 }
 
 .title-3 {
-    color: var(--strong-color);
+    color: var($strong_color);
     font-family: var(-title-font-family);
     font-weight: bold;
     text-align: center;
@@ -121,7 +121,7 @@
 }
 
 .paragraph {
-    font-family: var(--text-font-family);
+    font-family: var($text_font);
     font-size: 16px;
     color: #54585a;
     text-align: center;
@@ -136,8 +136,8 @@
 }
 
 .about-us-title {
-    color: var(--strong-color);
-    font-family: var(--title-font-family);
+    color: var($strong_color);
+    font-family: var($title_font);
     font-size: 24px;
 }
 
@@ -151,14 +151,14 @@
 }
 
 .member-name {
-    font-family: var(--text-font-family);
+    font-family: var($text_font);
     font-size: 20px;
     color: black;
 }
 
 .member-description {
-    font-family: var(--text-font-family);
-    color: var(--text-color);
+    font-family: var($text_font);
+    color: var($text_color);
     font-size: 16px;
     margin: 15px 0 15px 0;
     line-height: 24px;
@@ -171,7 +171,7 @@
 }
 
 .social-media-link {
-    color: var(--strong-color);
+    color: var($strong_color);
 }
 
 .social-media-logo::after {
@@ -195,7 +195,7 @@
 }
 
 .footer-list {
-    color: var(--text-color);
+    color: var($text_color);
     text-transform: uppercase;
     text-align: center;
     line-height: 20px;

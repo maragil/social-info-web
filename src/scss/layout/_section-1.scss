@@ -14,8 +14,8 @@
 }
 
 .team {
-    color: var(--light-color);
-    font-family: var(--title-font-family);
+    color: $light_color;
+    font-family: $title_font;
     font-size: 24px;
     text-align: center;
     padding-top: 30px;
@@ -23,9 +23,9 @@
 }
 
 .description {
-    font-family: var(--text-font-family);
+    font-family: $text_font;
     font-size: 16px;
-    color: #54585a;
+    color: $text_color;
     text-align: center;
     padding: 15px 15px 30px 15px;
     position: relative;
