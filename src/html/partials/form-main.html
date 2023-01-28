@@ -1,0 +1,25 @@
+<main class="main__contact" id="main__contact">
+    <h1 class="form__title">CONTACTO</h1>
+    <p class="form__text">Para contactar con nosotras solo tienes que rellenar este formulario y nos pondremos en contacto contigo lo antes posible</p>
+    <small class="form__small">Todos los campos marcados con * son obligatorios</small>
+
+    <form class="main__form" method="get" action="https://dev.adalab.es/api/form">
+        <label class="input__label" for="nombre">
+            Nombre completo *
+            <input class="input__placeholder" id="nombre" name="nombre" type="text" placeholder="Nombre..." required />
+        </label>
+        <label class="input__label" for="email">
+            Email *
+            <input class="input__placeholder" id="email" name="email" type="email" value="nombre.apellidos@mail.com" required />
+        </label>
+        <label class="input__label" for="tlf">
+            Teléfono
+            <input class="input__placeholder" id="tlf" name="tlf" type="tel" placeholder="Ej. 123456789" />
+        </label>
+        <label class="input__label" for="tlf">
+            Mensaje *
+            <textarea rows="3" class="input__placeholder--textarea" id="comments" name="comments" placeholder="¿Qué necesitas?"></textarea>
+        </label>
+        <input class="button" type="submit" value="Enviar" />
+    </form>
+</main>
