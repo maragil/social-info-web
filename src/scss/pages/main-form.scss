@@ -8,7 +8,15 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 30px 15px 60px 15px;
+    margin: 30px 15px 60px 15px;
+        @media (min-width:768px) {
+            width: 442px;
+            margin: 30px auto 60px auto;
+        }
+        @media (min-width:1200px) {
+            width: 601px;
+            margin: 45px auto 120px auto;
+        }
 }
 .form__hero {
     height: 30%;
@@ -38,35 +46,52 @@
 .main__form {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 39px;
 }
 .input__label {
     font-size: 14px;
     font-family: 'Open Sans', sans-serif;
     color: #54585a;
-    display: flex;
-    flex-direction: column;
-    gap: 7px;
+    display: block;
     text-align: left;
 }
 .input__placeholder {
-    width: 290px;
-    height: 45px;
-    &--textarea {
-        height: 105px;
-        width: 290px;
-    }
+    width: 100%;
+    font-size: 14px;
+    margin-bottom: 15px;
+    border: 1px solid #b8b8b9;
+    padding: 10px;
+    background-color: transparent;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 7px;
 }
 .button {
     width: 290px;
     height: 45px;
     color: white;
     background-color: #099d8d;
-    border: #099d8d;
+    border: none;
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     border-radius: 4px;
     text-transform: uppercase;
     font-size: 16px;
+    margin-top: 15px;
+        @media (min-width:768px) {
+                width: 206px;
+                height: 45px;
+                align-self: flex-end;
+        }
+        @media (min-width:1200px) { 
+                width: 278px;
+        }
+}
+.asterisk {
+    color:#099d8d;
+}
+.fieldset {
+    @media (min-width:1200px) {
+            display: grid;
+            grid-template-columns: 395px 162px;
+            column-gap: 44px;
+    }
 }
