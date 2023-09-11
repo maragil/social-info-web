@@ -1,24 +1,20 @@
-# LA BRÚJULA
+# <a href="https://social-info-web.maragil.com/" target="_blank" rel="noreferrer"><img src="./src/images/brújula.jpg" alt="logo" width="100" height="50"/></a> [LA BRÚJULA](https://social-info-web.maragil.com/)
 
-## ¿Qué es la brújula?
 
-La brújula es el punto de partida de cuatro chicas unidas por un primer proyecto común.
+## 🧭	¿Qué es la brújula?
 
-Cada una es de un punto diferente de España, pero con el objetivo de recorrer este camino juntas.
+Esta aplicación web es el resultado del proyecto final grupal correspondiente al módulo 1 del Bootcamp de Desarrollo Web de [Adalab](https://adalab.es/).
 
-## ¿Qué partes la conforman?
+Esta evaluación tuvo como objetivo la realización de una aplicación web para la presentación de un equipo de trabajo. Debía exponer varios puntos:
+1. Un **encabezado**, con **links** a las diferentes partes de la página.
 
-Esta brújula tiene cinco partes bien diferenciadas:
+2. Una **imagen** que representa al grupo.
 
-1. Un encabezado, con links a las diferentes partes de la página.
+3. Una **información general** de nuestro equipo, con nuestras fortalezas y debilidades.
 
-2. Una imagen que representa al grupo.
+4. Una breve información de cada una de nosotras, así como acceso a nuestras **redes sociales**.
 
-3. Una información general de nuestro equipo, con nuestras fortalezas y debilidades.
-
-4. Una breve información de cada una de nosotras, así como acceso a nuestras redes sociales.
-
-5. Un pie de página con información general y links de acceso a nuestra información
+5. Un **pie de página** con información general y links de acceso a nuestra información.
 
 ## ¿Cómo está fabricada?
 
